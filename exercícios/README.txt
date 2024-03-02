@@ -1,4 +1,5 @@
-EXERCÍCIOS 
+EXERCÍCIOS FOCADOS EM LISTA
+LINK OFICIAL DOS EXERCÍCIOS: https://wiki.python.org.br/ExerciciosListas
 
 1 	Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
 
@@ -33,7 +34,7 @@ EXERCÍCIOS
 11	Altere o programa anterior, intercalando 3 vetores de 10 elementos cada.
 
 
-12	Foram anotadas as idades e alturas de 30 alunos. Faça um Programa que determine quantos alunos com mais de 13 anos possuem altura inferior à média de altura desses alunos.
+12	Foram anotadas as idades e alturas de 30 alunos. Faça um Programa que determine quantos alunos com mais de anos possuem altura inferior à média de altura desses alunos.
 
 
 13 	Faça um programa que receba a temperatura média de cada mês do ano e armazene-as em uma lista. Após isto, calcule a média anual das temperaturas e mostre todas as temperaturas acima da média anual, e em que mês elas ocorreram (mostrar o mês por extenso: 1 – Janeiro, 2 – Fevereiro, . . . ).
