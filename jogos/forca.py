@@ -7,15 +7,13 @@ def jogar():
 
     palavras = ['maça','banana','abacaxi','abacate','pera','kiwi','laranja','limão','caju','manga','uva',]
     num_palavra = random.randint(0,10)
-    print(num_palavra)
-
     palavra_secreta = palavras[num_palavra].upper()
     letras_acertadas = ["_" for letra in palavra_secreta]
-
     enforcou = False
     acertou = False
     erros = 0
     total_erros = letras_acertadas.count("_")
+    
     print(letras_acertadas)
 
     while(not enforcou and not acertou):
