@@ -12,7 +12,6 @@ def jogar():
     enforcou = False
     acertou = False
     erros = 0
-    total_erros = letras_acertadas.count("_")
     
     print(letras_acertadas)
 
@@ -29,7 +28,7 @@ def jogar():
                 index += 1
         else:
             erros += 1
-            print(f'\nA palavra não possui a letra {chute}\nErros: {erros}/{total_erros}\n')
+            print(f'\nA palavra não possui a letra {chute}\nErros: {erros}/6\n')
         
         enforcou = erros == 6
         acertou = "_" not in letras_acertadas
